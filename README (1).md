@@ -1,4 +1,4 @@
-# 💰 Automated Price Tracker & Web Scraper
+# Automated Price Tracker & Web Scraper
 
 A smart async Python script that **scrapes product pages across e-commerce sites**, tracks price history, and **alerts you instantly** via Telegram, Discord, or Email the moment a price drops to your target.
 
@@ -9,7 +9,7 @@ A smart async Python script that **scrapes product pages across e-commerce sites
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Detail |
 |---|---|
@@ -24,7 +24,7 @@ A smart async Python script that **scrapes product pages across e-commerce sites
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & install
 
@@ -61,7 +61,7 @@ python tracker.py
 
 ---
 
-## 🧪 Test Without Real Shopping Sites
+##  Test Without Real Shopping Sites
 
 Use `books.toscrape.com` — a safe, legal scraping sandbox:
 
@@ -76,7 +76,7 @@ Use `books.toscrape.com` — a safe, legal scraping sandbox:
 
 ---
 
-## 🎯 Adding Site-Specific Selectors
+##  Adding Site-Specific Selectors
 
 For best accuracy, right-click a price on any site → **Inspect** → copy the CSS selector:
 
@@ -99,7 +99,7 @@ price_selectors:
 
 ---
 
-## 📬 Alert Setup
+##  Alert Setup
 
 ### Telegram (Recommended)
 1. Message [@BotFather](https://t.me/botfather) → `/newbot` → copy token
@@ -116,7 +116,7 @@ price_selectors:
 
 ---
 
-## 🖥️ Dashboard
+##  Dashboard
 
 Open `dashboard/index.html` in a browser for:
 - Live price cards with sparklines
@@ -126,7 +126,7 @@ Open `dashboard/index.html` in a browser for:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 price-tracker/
@@ -146,7 +146,7 @@ price-tracker/
 
 ---
 
-## ⚙️ Run as Background Service (Linux)
+##  Run as Background Service (Linux)
 
 ```ini
 # /etc/systemd/system/price-tracker.service
@@ -169,7 +169,7 @@ sudo systemctl enable price-tracker && sudo systemctl start price-tracker
 
 ---
 
-## ⚠️ Ethical Scraping
+##  Ethical Scraping
 
 - Respect `robots.txt` — check before scraping a site
 - Use intervals ≥ 30 minutes to avoid overloading servers
@@ -177,6 +177,6 @@ sudo systemctl enable price-tracker && sudo systemctl start price-tracker
 
 ---
 
-## 📄 License
+##  License
 
 MIT
